@@ -123,14 +123,7 @@ public class SpamFilter {
     }
   
 }
-//what you have done is wrong slightly
-//u need to have an arraylist of all the words unique in training set 
-//calculate their ham_prob and spam_prob
-//then check if that ArrayList.contains(the words from input text)
-//now multiply their probability for two conditions given ham or spam
-//also multiply with the probability of other words not present in input
-//after finally finding ham or spam
-//add the input string to the dataset for the machine to learn and improve.
+
 class CustomObject{
     String value_word;
     double value_ham_prob,value_spam_prob;
